@@ -14,4 +14,5 @@ set showmode
 set smartcase
 set t_Co=8
 set tabstop=4
+set fileformat=unix
 syntax on
