@@ -9,7 +9,7 @@ release_info[/etc/debian_version]=apt
 
 # packages which will be removed after the installation of Python
 declare -A package_info;
-package_info[yum]="bzip2-devel sqlite-devel openssl-devel readline-devel xz-devel gdbm-devel zlib-devel libuuid-devel libuuid"
+package_info[yum]="bzip2-devel sqlite-devel openssl-devel readline-devel xz-devel gdbm-devel zlib-devel libuuid-devel libuuid libffi-devel"
 package_info[apt]="libbz2-dev libdb5.3-dev libexpat1-dev libffi-dev libgdbm-dev liblzma-dev libncurses5-dev libncursesw5-dev libreadline-dev libreadline6-dev libsqlite3-dev libssl-dev llvm llvm-3.9-dev llvm-3.9-runtime llvm-6.0-dev llvm-6.0-runtime tk-dev xz-utils zlib1g-dev"
 
 # pick package manager based on release info file existence
